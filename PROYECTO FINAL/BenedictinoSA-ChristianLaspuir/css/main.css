@@ -294,6 +294,23 @@ body {
     border: none; 
 }
 
+/* Contact Keyframes */
+
+.form-container {
+    animation-name: dropdown;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+}
+
+@keyframes dropdown {
+    from {
+        transform: translateY(-100vh);
+    }
+    to {
+        transform: translateY(0vh);
+    }
+}
+
 /* Button Hover (Submit and Clear) */
 
 .form-button input:hover {
