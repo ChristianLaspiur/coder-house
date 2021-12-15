@@ -1,0 +1,31 @@
+.prop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #132235;
+
+    h3 {
+        padding: 2rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration: underline #132235;
+    }
+
+    p {
+        text-align: left;
+        font-weight: 700;
+        padding: 2rem;
+    }
+
+    .prop-spec {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .prop-gallery img {
+        padding: 20px;
+        cursor: pointer;
+    }
+}

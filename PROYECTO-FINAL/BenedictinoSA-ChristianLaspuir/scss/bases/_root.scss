@@ -1,0 +1,36 @@
+/* General */
+
+*{
+    padding: 0;
+    margin: 0;
+    
+        html {
+            font-family: 'Oswold', sans-serif;
+            color: #000;
+        }
+
+        header {
+            background-color: #132235;
+            position: sticky;
+            top: 0;
+        }
+
+        body {
+            padding: 0;
+            background: #ebe7e7;
+        }
+}
+
+/* Grid declaration */
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "footer";
+    grid-gap: 20px;
+}
+
+.main {
+    grid-area: main;
+}

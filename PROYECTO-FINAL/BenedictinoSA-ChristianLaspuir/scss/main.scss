@@ -1,22 +1,23 @@
-/* General */
+/* === INDEX IMPORTS === */
 
-*{
-    padding: 0;
-    margin: 0;
-    
-    html {
-        font-family: 'Oswold', sans-serif;
-        color: #000;
-    }
+@import "bases/root";
+@import "componentes/header";
+@import "componentes/main";
+@import "componentes/footer";
 
-    header {
-        background-color: #132235;
-        position: sticky;
-        top: 0;
-    }
 
-    body {
-        padding: 0;
-        background: #ebe7e7;
-    }
-}
+/* === PRODUCT PAGE IMPORT === */
+
+@import "componentes/pages/product-page";
+
+/* === CONTACT PAGE IMPORT === */
+
+@import "componentes/pages/contact-page";
+
+/* === ABOUT US PAGE IMPORT === */
+
+@import "componentes/pages/about-us";
+
+/* === SERVICE PAGE IMPORT === */
+
+@import "componentes/pages/service";

@@ -1,0 +1,98 @@
+@import "pages/service";
+
+/* === CAROUSEL === */
+
+.prop-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.prop {
+    text-align: center;
+    margin: 1.2rem;
+    background: #ebe7e7;
+    border-bottom: 2px solid #000;
+    min-height: 10vh;
+
+        h1{
+            margin: 1.2rem;
+            padding: .8rem;
+            font-size: 2rem;
+        }
+}
+
+.carousel-inner > .carousel-item >  img {
+    width:640px;
+    height:480px;
+}
+
+
+/* === New Product === */
+
+.best-prop {
+    text-align: center;
+    margin: 1.2rem;
+    background: #ebe7e7;
+
+        h2 {
+            padding: 1.2rem;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            display: inline-block;
+            padding: 1rem;
+        }
+
+        .prop-walkthrough {
+            border: solid .5rem #132235;
+        }
+}
+
+/* === Service === */
+
+/* .service {
+    text-align: center;
+    background-color: #ebe7e7;
+    color: #000;
+
+        h2 {
+            font-size: 2rem;
+            margin: .8rem;
+            padding: .5rem;
+        }
+
+        .service-container {
+            margin: 1rem;
+            margin-bottom: 0;
+            padding: 1rem;
+            border-bottom: solid .2rem #132235;
+
+                h3 {
+                    font-size: 1.5rem;
+                    text-decoration: underline;
+                    padding: .8rem;
+                }
+
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                    padding: 1.5rem;
+                    border: 2px solid #132235;
+                    border-radius: 10%;
+                    margin: 1.5rem;
+                }
+
+                p {
+                    padding-bottom: 1.2rem;
+                    color: #000;
+                    font-weight: 500;
+                }
+        }
+} */
+
+
