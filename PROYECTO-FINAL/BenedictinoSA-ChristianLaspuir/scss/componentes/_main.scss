@@ -1,5 +1,9 @@
 @import "pages/service";
 
+/* === VARIABLES IMPORT === */
+
+@import "../bases/variables";
+
 /* === CAROUSEL === */
 
 .prop-gallery {
@@ -13,7 +17,7 @@
 .prop {
     text-align: center;
     margin: 1.2rem;
-    background: #ebe7e7;
+    background: $bg-light;
     border-bottom: 2px solid #000;
     min-height: 10vh;
 
@@ -35,7 +39,7 @@
 .best-prop {
     text-align: center;
     margin: 1.2rem;
-    background: #ebe7e7;
+    background: $bg-light;
 
         h2 {
             padding: 1.2rem;
@@ -49,50 +53,6 @@
         }
 
         .prop-walkthrough {
-            border: solid .5rem #132235;
+            border: solid .5rem $bg-dark;
         }
 }
-
-/* === Service === */
-
-/* .service {
-    text-align: center;
-    background-color: #ebe7e7;
-    color: #000;
-
-        h2 {
-            font-size: 2rem;
-            margin: .8rem;
-            padding: .5rem;
-        }
-
-        .service-container {
-            margin: 1rem;
-            margin-bottom: 0;
-            padding: 1rem;
-            border-bottom: solid .2rem #132235;
-
-                h3 {
-                    font-size: 1.5rem;
-                    text-decoration: underline;
-                    padding: .8rem;
-                }
-
-                img {
-                    width: 5rem;
-                    height: 5rem;
-                    padding: 1.5rem;
-                    border: 2px solid #132235;
-                    border-radius: 10%;
-                    margin: 1.5rem;
-                }
-
-                p {
-                    padding-bottom: 1.2rem;
-                    color: #000;
-                    font-weight: 500;
-                }
-        }
-} */
-
-

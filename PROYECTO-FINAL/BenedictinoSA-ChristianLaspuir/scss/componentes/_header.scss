@@ -1,18 +1,22 @@
+/* === VARIABLES IMPORT === */
+
+@import "../bases/variables";
+
 /* === NAVBAR === */
 
 .nav-container {
     z-index: 10;
     grid-area: nav;
-    background-color: #132235;
+    background-color: $bg-dark;
 
     .bg-darkblue {
-        background-color: #132235;
+        background-color: $bg-dark;
     }
 
     .header-logo {
         margin: 15px;
         margin-left: 50px;
-        border: 1px solid #ebe7e7;
+        border: 1px solid $bg-light;
     }
 
     .header-nav {
@@ -37,8 +41,8 @@
         text-decoration: none;
 
             &:hover{
-                background: #ebe7e7;
-                color: #132235;
+                background: $bg-light;
+                color: $bg-dark;
                 border-radius: 10px;
             }
     }

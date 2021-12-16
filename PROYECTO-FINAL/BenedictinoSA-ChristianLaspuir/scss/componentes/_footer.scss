@@ -1,10 +1,15 @@
+/* === VARIABLES IMPORT === */
+
+@import "../bases/variables";
+
+
 .footer {
     grid-area: footer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ebe7e7;
-    color: #132235;
+    background-color: $bg-light;
+    color: $bg-dark;
     font-weight: 700;
 
         p {

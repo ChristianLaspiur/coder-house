@@ -1,4 +1,5 @@
 /* === INDEX IMPORTS === */
+/* === VARIABLE DECLARATION === */
 /* General */
 * {
   padding: 0;
@@ -23,6 +24,8 @@
 .main {
   grid-area: main; }
 
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 /* === NAVBAR === */
 .nav-container {
   z-index: 10;
@@ -53,6 +56,8 @@
       color: #132235;
       border-radius: 10px; }
 
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 .service {
   text-align: center;
   background-color: #ebe7e7;
@@ -65,7 +70,7 @@
     margin: 1rem;
     margin-bottom: 0;
     padding: 1rem;
-    border-bottom: solid .2rem #132235; }
+    border-bottom: solid 0.2rem #132235; }
     .service .service-container h3 {
       font-size: 1.5rem;
       text-decoration: underline;
@@ -82,6 +87,8 @@
       color: #000;
       font-weight: 500; }
 
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 /* === CAROUSEL === */
 .prop-gallery {
   display: flex;
@@ -118,48 +125,10 @@
     display: inline-block;
     padding: 1rem; }
   .best-prop .prop-walkthrough {
-    border: solid .5rem #132235; }
+    border: solid 0.5rem #132235; }
 
-/* === Service === */
-/* .service {
-    text-align: center;
-    background-color: #ebe7e7;
-    color: #000;
-
-        h2 {
-            font-size: 2rem;
-            margin: .8rem;
-            padding: .5rem;
-        }
-
-        .service-container {
-            margin: 1rem;
-            margin-bottom: 0;
-            padding: 1rem;
-            border-bottom: solid .2rem #132235;
-
-                h3 {
-                    font-size: 1.5rem;
-                    text-decoration: underline;
-                    padding: .8rem;
-                }
-
-                img {
-                    width: 5rem;
-                    height: 5rem;
-                    padding: 1.5rem;
-                    border: 2px solid #132235;
-                    border-radius: 10%;
-                    margin: 1.5rem;
-                }
-
-                p {
-                    padding-bottom: 1.2rem;
-                    color: #000;
-                    font-weight: 500;
-                }
-        }
-} */
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 .footer {
   grid-area: footer;
   display: flex;
@@ -175,7 +144,11 @@
     margin: 1.2rem;
     cursor: pointer; }
 
+/* === VARIABLE IMPORT === */
+/* === VARIABLE DECLARATION === */
 /* === PRODUCT PAGE IMPORT === */
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 .prop-container {
   display: flex;
   flex-direction: column;
@@ -200,6 +173,8 @@
     cursor: pointer; }
 
 /* === CONTACT PAGE IMPORT === */
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 /* === FORM === */
 .form-container {
   display: flex;
@@ -247,9 +222,9 @@
       .form-container .form .form-button input:hover {
         background: #3db251;
         color: #ebe7e7; }
-      .form-container .form .form-button input #clear-button input:hover {
-        background: #e61414;
-        color: #ebe7e7; }
+    .form-container .form #clear-button input:hover {
+      background: #e61414;
+      color: #ebe7e7; }
 
 /* === CONTACT KEYFRAMES === */
 .form-container {
@@ -263,8 +238,10 @@
   to {
     transform: translateY(0vh); } }
 
-/* === BUTTON HOVER (Submit and Clear) === */
 /* === ABOUT US PAGE IMPORT === */
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
+/* === ABOUT US PAGE === */
 .text-container {
   display: flex;
   flex-direction: column;
@@ -286,6 +263,8 @@
     padding: 1rem; }
 
 /* === SERVICE PAGE IMPORT === */
+/* === VARIABLES IMPORT === */
+/* === VARIABLE DECLARATION === */
 .service {
   text-align: center;
   background-color: #ebe7e7;
@@ -298,7 +277,7 @@
     margin: 1rem;
     margin-bottom: 0;
     padding: 1rem;
-    border-bottom: solid .2rem #132235; }
+    border-bottom: solid 0.2rem #132235; }
     .service .service-container h3 {
       font-size: 1.5rem;
       text-decoration: underline;
@@ -314,3 +293,50 @@
       padding-bottom: 1.2rem;
       color: #000;
       font-weight: 500; }
+
+/* === MEDIA QUERIES === */
+/* === 780px BREAKPOINT === */
+@media screen and (max-width: 780px) {
+  .input-box {
+    width: 300px; } }
+
+/* === 600px BREAKPOINT === */
+@media screen and (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+  .header-nav {
+    text-align: center;
+    font-size: 22px; }
+  .prop-spec {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .footer p {
+    text-align: center;
+    padding: 2rem; } }
+
+/* === 480px BREAKPOINT === */
+@media screen and (max-width: 480px) {
+  .best-prop p {
+    padding: 5px;
+    font-size: 24px; }
+  .service-container p {
+    font-size: 24px; }
+  .input-box {
+    width: 200px; } }
+
+.footer p {
+  font-size: 24px; }
+
+/* === 368px BREAKPOINT === */
+@media screen and (max-width: 368px) {
+  .input-box {
+    width: 180px; } }

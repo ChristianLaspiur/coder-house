@@ -1,3 +1,7 @@
+/* === VARIABLES IMPORT === */
+
+@import "../../bases/variables";
+
 /* === FORM === */
 
 .form-container {
@@ -9,8 +13,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #132235;
-        color: #ebe7e7;
+        background: $bg-dark;
+        color: $bg-light;
         width: 50vw;
         padding: 2rem;
         font-size: 1.1rem;
@@ -50,7 +54,7 @@
         .form-button input {
             padding: 0.5rem;
             margin: 1.1rem;
-            background: #ebe7e7;
+            background: $bg-light;
             font-size: 1rem;
             font-weight: 700;
             border-radius: 5px;
@@ -58,13 +62,13 @@
 
             &:hover {
                 background: #3db251;
-                color: #ebe7e7;
+                color: $bg-light;
             }
-
-            #clear-button input:hover {
-                background: #e61414;
-                color: #ebe7e7;
-            }
+        }
+        
+        #clear-button input:hover {
+            background: #e61414;
+            color: $bg-light;
         }
     }
 }
@@ -85,7 +89,5 @@
         }
     }
 }
-
-/* === BUTTON HOVER (Submit and Clear) === */
 
 

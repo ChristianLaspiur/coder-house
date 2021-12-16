@@ -5,6 +5,9 @@
 @import "componentes/main";
 @import "componentes/footer";
 
+/* === VARIABLE IMPORT === */
+
+    @import "bases/variables";
 
 /* === PRODUCT PAGE IMPORT === */
 
@@ -21,3 +24,8 @@
 /* === SERVICE PAGE IMPORT === */
 
 @import "componentes/pages/service";
+
+/* === MEDIA QUERIES === */
+
+@import "componentes/media-queries";
+

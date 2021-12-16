@@ -1,3 +1,5 @@
+@import "../bases/variables";
+
 /* General */
 
 *{
@@ -10,14 +12,14 @@
         }
 
         header {
-            background-color: #132235;
+            background-color: $bg-dark;
             position: sticky;
             top: 0;
         }
 
         body {
             padding: 0;
-            background: #ebe7e7;
+            background: $bg-light;
         }
 }
 

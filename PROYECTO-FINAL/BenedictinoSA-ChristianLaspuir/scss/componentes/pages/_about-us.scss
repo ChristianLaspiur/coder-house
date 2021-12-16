@@ -1,7 +1,12 @@
+/* === VARIABLES IMPORT === */
+
+@import "../../bases/variables";
+
+/* === ABOUT US PAGE === */
 .text-container {
     display: flex;
     flex-direction: column;
-    background: #ebe7e7;
+    background: $bg-light;
     box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
     text-align: center;
     margin: 5px;

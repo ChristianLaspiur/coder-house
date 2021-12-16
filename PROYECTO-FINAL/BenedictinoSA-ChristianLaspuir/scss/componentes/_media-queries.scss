@@ -1,5 +1,13 @@
 
-/* == Media Queries == */
+/* === 780px BREAKPOINT === */
+@media screen and (max-width: 780px) {
+    
+    .input-box {
+        width: 300px;
+    }
+}
+
+/* === 600px BREAKPOINT === */
 
 @media screen and (max-width: 600px) {
     
@@ -35,13 +43,7 @@
     }
 }
 
-
-@media screen and (max-width: 780px) {
-    
-    .input-box {
-        width: 300px;
-    }
-}
+/* === 480px BREAKPOINT === */
 
 @media screen and (max-width: 480px) {
     
@@ -63,6 +65,7 @@
     font-size: 24px;
 }
 
+/* === 368px BREAKPOINT === */
 
 @media screen and (max-width: 368px) {
     
