@@ -1,0 +1,58 @@
+@import "pages/service";
+
+/* === VARIABLES IMPORT === */
+
+@import "../bases/variables";
+
+/* === CAROUSEL === */
+
+.prop-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.prop {
+    text-align: center;
+    margin: 1.2rem;
+    background: $bg-light;
+    border-bottom: 2px solid #000;
+    min-height: 10vh;
+
+        h1{
+            margin: 1.2rem;
+            padding: .8rem;
+            font-size: 2rem;
+        }
+}
+
+.carousel-inner > .carousel-item >  img {
+    width:640px;
+    height:480px;
+}
+
+
+/* === New Product === */
+
+.best-prop {
+    text-align: center;
+    margin: 1.2rem;
+    background: $bg-light;
+
+        h2 {
+            padding: 1.2rem;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            display: inline-block;
+            padding: 1rem;
+        }
+
+        .prop-walkthrough {
+            border: solid .5rem $bg-dark;
+        }
+}

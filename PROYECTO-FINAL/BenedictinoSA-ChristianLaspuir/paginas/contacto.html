@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/icon/benedictinoSA-logo-16x16.jpg" />
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- CSS Main -->
+    <link rel="stylesheet" href="../css/main.css">+
+    <!-- SCSS Main -->
+    <link rel="stylesheet" href="../css/maincss.css">
+    <title>Contacto</title>
+</head>
+
+<body class="grid-container">
+    <header class="nav-container  d-flex align-items-center w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue w-100">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="../image/icon/benedictinoSA-logo.png" alt="" width="100" height="90">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html" target="_blank">Inicio</a>
+                        <a class="nav-link" href="productos.html" target="_blank">Productos</a>
+                        <a class="nav-link" href="servicios.html" target="_blank">Servicios</a>
+                        <a class="nav-link" href="nosotros.html" target="_blank">Nosotros</a>
+                        <a class="nav-link active" href="#" target="_blank">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="form-container">
+            <div class="form">
+                <form>
+                    <div class="input-box">
+                        <label for="name">Nombre </label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Apellido </label>
+                        <input type="text" name="lastname" id="lastname" required />
+                    </div>
+                    <div class="input-box">
+                        <label for="number">Teléfono </label>
+                        <input type="number" name="number" id="number" required />
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="input-box">
+                        <label for="textarea">Consulta </label>
+                        <textarea name="textarea" id="textarea"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <input type="submit" value="Enviar consulta" />
+                    </div>
+                    <div class="form-button" id="clear-button">
+                        <input type="reset" value="Restablecer campos" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-links">
+            <img src="../image/youtube-icon.png" alt="youtube icon" />
+            <img src="../image/facebook-icon.png" alt="facebook icon" />
+            <img src="../image/instagram-icon.png" alt="instagram icon" />
+            <img src="../image/linkedIn-icon.png" alt="linkedin icon" />
+        </div>
+        <div>
+            <p>Copyright © 2021 by Benedictino SA Website. All Right Reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>

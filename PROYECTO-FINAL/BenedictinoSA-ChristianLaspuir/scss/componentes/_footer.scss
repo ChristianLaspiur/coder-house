@@ -1,0 +1,24 @@
+/* === VARIABLES IMPORT === */
+
+@import "../bases/variables";
+
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-light;
+    color: $bg-dark;
+    font-weight: 700;
+
+        p {
+            text-align: right;
+            padding: 1.2rem;
+        }
+
+        img {
+            margin: 1.2rem;
+            cursor: pointer;
+        }
+}

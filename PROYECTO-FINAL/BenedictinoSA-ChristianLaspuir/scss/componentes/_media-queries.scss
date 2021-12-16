@@ -1,0 +1,75 @@
+
+/* === 780px BREAKPOINT === */
+@media screen and (max-width: 780px) {
+    
+    .input-box {
+        width: 300px;
+    }
+}
+
+/* === 600px BREAKPOINT === */
+
+@media screen and (max-width: 600px) {
+    
+    .nav-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-nav {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .prop-spec {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .footer p {
+        text-align: center;
+        padding: 2rem;
+    }
+}
+
+/* === 480px BREAKPOINT === */
+
+@media screen and (max-width: 480px) {
+    
+    .best-prop p {
+        padding: 5px;
+        font-size: 24px;
+    }
+
+    .service-container p {
+        font-size: 24px;
+    }
+
+    .input-box {
+        width: 200px;
+    }
+}
+
+.footer p {
+    font-size: 24px;
+}
+
+/* === 368px BREAKPOINT === */
+
+@media screen and (max-width: 368px) {
+    
+    .input-box {
+        width: 180px;
+    }
+}

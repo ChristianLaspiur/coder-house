@@ -1,0 +1,31 @@
+/* === INDEX IMPORTS === */
+
+@import "bases/root";
+@import "componentes/header";
+@import "componentes/main";
+@import "componentes/footer";
+
+/* === VARIABLE IMPORT === */
+
+    @import "bases/variables";
+
+/* === PRODUCT PAGE IMPORT === */
+
+@import "componentes/pages/product-page";
+
+/* === CONTACT PAGE IMPORT === */
+
+@import "componentes/pages/contact-page";
+
+/* === ABOUT US PAGE IMPORT === */
+
+@import "componentes/pages/about-us";
+
+/* === SERVICE PAGE IMPORT === */
+
+@import "componentes/pages/service";
+
+/* === MEDIA QUERIES === */
+
+@import "componentes/media-queries";
+
