@@ -4,6 +4,15 @@
 
 @import "../bases/variables";
 
+// MIXIN // 
+
+
+@mixin title($margin, $padding, $font-size) {
+    margin: $margin;
+    padding: $padding;
+    font-size: $font-size;
+}
+
 /* === CAROUSEL === */
 
 .prop-gallery {
@@ -22,9 +31,7 @@
     min-height: 10vh;
 
         h1{
-            margin: 1.2rem;
-            padding: .8rem;
-            font-size: 2rem;
+        @include title(1.2rem, .8rem, 2rem)
         }
 }
 

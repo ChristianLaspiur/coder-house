@@ -1,0 +1,86 @@
+﻿En el archivo index.html agregue el SEO de la siguiente manera:
+
+
+Keywords: "construcción, reparación, edificios, fideicomiso, planos, empresa constructora, propiedades, propiedad horizontal, departamentos, monoambientes, remodelaciones, bahía blanca".
+
+
+Descripción: "Benedictino SA , Empresa Constructora con más de 20 años de experiencia en el sector".
+
+
+Título: Utilice el nombre de la empresa y agregue el rubro al que se dedica “Benedictino SA - Desarrollos Inmobiliarios | Empresa Constructora.”
+
+
+Encabezado: “PROPIEDADES”, que le da paso a la primera sección del index.html, que es el carrousel con las imágenes de las propiedades en venta.
+
+
+En el archivo contacto.html agregue el SEO de la siguiente manera:
+
+
+Keywords: "construcción, reparación, edificios, fideicomiso, planos, empresa constructora, propiedades, propiedad horizontal, departamentos, monoambientes, remodelaciones, bahía blanca". Y agregue “contacto, formulario".
+
+
+Descripción: "Benedictino SA , Empresa Constructora con más de 20 años de experiencia en el sector, comunicate con nosotros estamos para ayudarte"".
+
+
+Título: Utilice el nombre de la empresa y agregue el rubro al que se dedica “Contacto - Formulario, consultanos ”.
+
+
+Encabezado: “CONTACTANOS”, es el título de la página y se encuentra arriba del formulario de contacto.
+
+
+
+
+En el archivo productos.html agregue el SEO de la siguiente manera:
+
+
+Keywords: "construcción, reparación, edificios, fideicomiso, planos, empresa constructora, propiedades, propiedad horizontal, departamentos, monoambientes, remodelaciones, bahía blanca”. Y  agregue: “bahía blanca, alquiler, venta".
+.
+
+
+Descripción: "Benedictino SA , Empresa Constructora con más de 20 años de experiencia en el sector, contamos con departamentos de alta gama, unidades familiares, y también para turismo".
+
+
+
+
+Título: El títulos lleva el nombre de la sección y un poco de “propaganda”. “Productos - Propiedades Disponibles a un precio IMPERDIBLE”
+
+
+
+
+Encabezado: “PROPIEDADES”, y muestra las tarjetas que contienen imagen + descripción y dirección de las propiedades en venta.
+
+
+En el archivo nosotros.html agregue el SEO de la siguiente manera:
+
+
+Keywords: "construcción, reparación, edificios, fideicomiso, planos, empresa constructora, propiedades, propiedad horizontal, departamentos, monoambientes, remodelaciones, bahía blanca, quienes somos".
+
+
+Descripción: "Benedictino SA , Empresa Constructora con más de 20 años de experiencia en el sector, somos una empresa grande pero con los valores de una empresa familiar".
+
+
+
+
+Título: “Nosotros - Mas de 20 Años en el rubro de la construcción”
+
+
+
+
+Encabezado: “Benedictino SA (2000)”, nombre de la empresa + año de inicio de actividades.
+
+
+
+
+En el archivo servicios.html agregue el SEO de la siguiente manera:
+
+
+Keywords: "construcción, reparación, edificios, fideicomiso, planos, empresa constructora, propiedades, propiedad horizontal, departamentos, monoambientes, remodelaciones, servicios integrales, materiales".
+
+
+Descripción: "Benedictino SA , Empresa Constructora con mas de 20 años de experiencia en el sector, ofrecemos una amplia gama de servicios, basados en la construcción de emprendimientos inmobiliarios"
+
+
+Título: “Servicios - Reparaciones, Planos, Construcción, Remodelaciones”.
+
+
+Encabezado: “Servicios”, y la lista de servicios ofrecidos y su respectiva descripción

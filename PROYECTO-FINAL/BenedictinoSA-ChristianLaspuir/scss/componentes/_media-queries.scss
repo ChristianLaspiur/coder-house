@@ -3,7 +3,7 @@
 @media screen and (max-width: 780px) {
     
     .input-box {
-        width: 300px;
+        width: 400px;
     }
 }
 
@@ -82,12 +82,14 @@
 @media screen and (max-width: 320px) {
     
     .input-box {
-        max-width: 80px;
-        input {
-            width: 80px;
-        }
-        text-area {
-            width: 80px;
-        }
+        max-width: 100px;
+        
+            input {
+                width: 80%;
+            }
+
+            text-area {
+                width: 80%;
+            }
     }
 }

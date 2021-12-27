@@ -42,17 +42,18 @@
             width: 350px;
 
                 input {
-                    width: 70%;
+                    width: 100%;
                     height: 25px;
                 }
 
                 textarea {
-                    width: 70%;
+                    width: 100%;
                     height: 75px;
                 }
 
                 label {
                     padding: 0.8rem;
+                    margin: 1rem;
                 }
 
                 input  textarea {
@@ -61,7 +62,7 @@
                 }
         }
         
-        .form-button input {
+        .form-button {
             padding: 0.2rem;
             margin: 1rem;
             background: $bg-light;
@@ -76,12 +77,22 @@
             }
         }
         
-        #clear-button input:hover {
-            background: #e61414;
-            color: $bg-light;
+        .form-button-clear {
+            @extend .form-button;
+
+            &:hover {
+                background: #ff0000;
+                color: $bg-light;
+            }
         }
     }
 }
+
+// EXTEND // 
+
+
+
+
 
 /* === CONTACT KEYFRAMES === */
 
