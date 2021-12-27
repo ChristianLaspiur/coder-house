@@ -157,10 +157,66 @@
     padding: 20px;
     cursor: pointer; }
 
+/* === 780px BREAKPOINT === */
+@media screen and (max-width: 780px) {
+  .input-box {
+    width: 300px; } }
+
+/* === 600px BREAKPOINT === */
+@media screen and (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+  .header-nav {
+    text-align: center;
+    font-size: 22px; }
+  .prop-spec {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .footer p {
+    text-align: center;
+    padding: 2rem; } }
+
+/* === 480px BREAKPOINT === */
+@media screen and (max-width: 480px) {
+  .best-prop p {
+    padding: 5px;
+    font-size: 24px; }
+  .service-container p {
+    font-size: 24px; }
+  .form-container .input-box {
+    max-width: 180px; }
+    .form-container .input-box input {
+      width: 80px; } }
+
+.footer p {
+  font-size: 24px; }
+
+/* === 368px BREAKPOINT === */
+@media screen and (max-width: 368px) {
+  .input-box {
+    width: 60px; } }
+
+@media screen and (max-width: 320px) {
+  .input-box {
+    max-width: 80px; }
+    .input-box input {
+      width: 80px; }
+    .input-box text-area {
+      width: 80px; } }
+
 /* === FORM === */
 .main h1 {
   text-align: center;
-  margin: 10px; }
+  margin: 20px; }
 
 .form-container {
   display: flex;
@@ -187,10 +243,10 @@
       margin: 1.2rem;
       width: 350px; }
       .form-container .form .input-box input {
-        width: 100%;
+        width: 70%;
         height: 25px; }
       .form-container .form .input-box textarea {
-        width: 100%;
+        width: 70%;
         height: 75px; }
       .form-container .form .input-box label {
         padding: 0.8rem; }
@@ -198,8 +254,8 @@
         margin: 1rem;
         padding: 5px; }
     .form-container .form .form-button input {
-      padding: 0.5rem;
-      margin: 1.1rem;
+      padding: 0.2rem;
+      margin: 1rem;
       background: #ebe7e7;
       font-size: 1rem;
       font-weight: 700;
@@ -216,7 +272,7 @@
 .form-container {
   animation-name: dropdown;
   animation-duration: 2.5s;
-  animation-delay: 0.5s; }
+  animation-delay: 0s; }
 
 @keyframes dropdown {
   from {
@@ -309,8 +365,10 @@
     font-size: 24px; }
   .service-container p {
     font-size: 24px; }
-  .input-box {
-    width: 200px; } }
+  .form-container .input-box {
+    max-width: 180px; }
+    .form-container .input-box input {
+      width: 80px; } }
 
 .footer p {
   font-size: 24px; }
@@ -318,4 +376,12 @@
 /* === 368px BREAKPOINT === */
 @media screen and (max-width: 368px) {
   .input-box {
-    width: 180px; } }
+    width: 60px; } }
+
+@media screen and (max-width: 320px) {
+  .input-box {
+    max-width: 80px; }
+    .input-box input {
+      width: 80px; }
+    .input-box text-area {
+      width: 80px; } }

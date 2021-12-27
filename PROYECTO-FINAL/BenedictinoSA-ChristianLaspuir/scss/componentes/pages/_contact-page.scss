@@ -2,13 +2,16 @@
 
 @import "../../bases/variables";
 
+@import "../media-queries";
+
+
 /* === FORM === */
 
 .main {
 
     h1 {
         text-align: center;
-        margin: 10px;
+        margin: 20px;
     }
 }
 .form-container {
@@ -39,12 +42,12 @@
             width: 350px;
 
                 input {
-                    width: 100%;
+                    width: 70%;
                     height: 25px;
                 }
 
                 textarea {
-                    width: 100%;
+                    width: 70%;
                     height: 75px;
                 }
 
@@ -59,8 +62,8 @@
         }
         
         .form-button input {
-            padding: 0.5rem;
-            margin: 1.1rem;
+            padding: 0.2rem;
+            margin: 1rem;
             background: $bg-light;
             font-size: 1rem;
             font-weight: 700;
@@ -85,7 +88,7 @@
 .form-container {
     animation-name: dropdown;
     animation-duration: 2.5s;
-    animation-delay: 0.5s;
+    animation-delay: 0s;
 
     @keyframes dropdown {
         from {
