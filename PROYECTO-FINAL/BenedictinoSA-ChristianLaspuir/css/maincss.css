@@ -202,10 +202,9 @@ h3 {
   .form-container .input-box {
     max-width: 180px; }
     .form-container .input-box input {
-      width: 80px; } }
-
-.footer p {
-  font-size: 24px; }
+      width: 80px; }
+  .footer p {
+    font-size: 24px; } }
 
 /* === 368px BREAKPOINT === */
 @media screen and (max-width: 368px) {
@@ -383,10 +382,9 @@ h3 {
   .form-container .input-box {
     max-width: 180px; }
     .form-container .input-box input {
-      width: 80px; } }
-
-.footer p {
-  font-size: 24px; }
+      width: 80px; }
+  .footer p {
+    font-size: 24px; } }
 
 /* === 368px BREAKPOINT === */
 @media screen and (max-width: 368px) {
