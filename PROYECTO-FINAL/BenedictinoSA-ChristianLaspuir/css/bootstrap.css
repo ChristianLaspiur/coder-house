@@ -3934,7 +3934,7 @@ textarea.form-control-lg {
   color: #0a58ca;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: #77797a;
   pointer-events: none;
   cursor: default;
 }
@@ -3960,7 +3960,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #ced1d4;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }

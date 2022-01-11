@@ -64,17 +64,17 @@ h3 {
 .service {
   text-align: center;
   background-color: #ebe7e7;
-  color: #000; }
+  color: #000;
+  margin-top: 80px;
+  margin-bottom: 80px; }
   .service h1 {
     margin: .8rem;
     padding: .5rem; }
   .service .service-container {
-    margin: 1rem;
+    margin: 100px;
     margin-bottom: 0;
-    padding: 1rem;
-    border-bottom: solid 0.2rem #132235; }
+    padding: 1rem; }
     .service .service-container h3 {
-      text-decoration: underline;
       padding: .8rem; }
     .service .service-container img {
       width: 5rem;
@@ -84,9 +84,13 @@ h3 {
       border-radius: 10%;
       margin: 1.5rem; }
     .service .service-container p {
-      padding-bottom: 1.2rem;
+      margin: auto;
+      width: 80%;
+      text-align: justify;
+      padding: 50px;
       color: #000;
-      font-weight: 500; }
+      font-weight: 400;
+      border-bottom: solid 0.2rem #132235; }
 
 /* === CAROUSEL === */
 .prop-gallery {
@@ -99,8 +103,8 @@ h3 {
 .prop {
   text-align: center;
   margin: 1.2rem;
+  margin-bottom: 100px;
   background: #ebe7e7;
-  border-bottom: 2px solid #000;
   min-height: 10vh; }
   .prop h1 {
     margin: 1.2rem;
@@ -108,21 +112,26 @@ h3 {
     font-size: 2rem; }
 
 .carousel-inner > .carousel-item > img {
-  width: 640px;
-  height: 480px; }
+  width: 720px;
+  height: 520px; }
 
 /* === New Product === */
 .best-prop {
   text-align: center;
   margin: 1.2rem;
-  background: #ebe7e7; }
+  background: #ebe7e7;
+  margin-bottom: 120px; }
   .best-prop h2 {
     padding: 1.2rem;
     font-size: 2rem; }
   .best-prop p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
     font-size: 1.2rem;
     display: inline-block;
-    padding: 1rem; }
+    padding: 1rem;
+    text-align: justify; }
   .best-prop .prop-walkthrough {
     border: solid 0.5rem #132235; }
 
@@ -321,17 +330,17 @@ h3 {
 .service {
   text-align: center;
   background-color: #ebe7e7;
-  color: #000; }
+  color: #000;
+  margin-top: 80px;
+  margin-bottom: 80px; }
   .service h1 {
     margin: .8rem;
     padding: .5rem; }
   .service .service-container {
-    margin: 1rem;
+    margin: 100px;
     margin-bottom: 0;
-    padding: 1rem;
-    border-bottom: solid 0.2rem #132235; }
+    padding: 1rem; }
     .service .service-container h3 {
-      text-decoration: underline;
       padding: .8rem; }
     .service .service-container img {
       width: 5rem;
@@ -341,9 +350,13 @@ h3 {
       border-radius: 10%;
       margin: 1.5rem; }
     .service .service-container p {
-      padding-bottom: 1.2rem;
+      margin: auto;
+      width: 80%;
+      text-align: justify;
+      padding: 50px;
       color: #000;
-      font-weight: 500; }
+      font-weight: 400;
+      border-bottom: solid 0.2rem #132235; }
 
 /* === 780px BREAKPOINT === */
 @media screen and (max-width: 780px) {
