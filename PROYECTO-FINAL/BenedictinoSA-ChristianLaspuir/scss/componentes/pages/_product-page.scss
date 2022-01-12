@@ -4,10 +4,18 @@
 
 .prop {
 
+    width: 80%;
+    margin: auto;
+
     h1 {
         font-size: 4rem;
         padding: 20px;
         margin-bottom: 40px;
+    }
+
+    .card {
+        width: 100%;
+        margin: auto;
     }
 
 .prop-container {

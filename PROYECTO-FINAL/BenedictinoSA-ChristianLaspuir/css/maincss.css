@@ -150,33 +150,38 @@ h3 {
     margin: 1.2rem;
     cursor: pointer; }
 
-.prop h1 {
-  font-size: 4rem;
-  padding: 20px;
-  margin-bottom: 40px; }
-
-.prop .prop-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 2px solid #132235; }
-  .prop .prop-container h3 {
-    padding: 2rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-decoration: underline #132235; }
-  .prop .prop-container p {
-    text-align: left;
-    font-weight: 700;
-    padding: 2rem; }
-  .prop .prop-container .prop-spec {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; }
-  .prop .prop-container .prop-gallery img {
+.prop {
+  width: 80%;
+  margin: auto; }
+  .prop h1 {
+    font-size: 4rem;
     padding: 20px;
-    cursor: pointer; }
+    margin-bottom: 40px; }
+  .prop .card {
+    width: 100%;
+    margin: auto; }
+  .prop .prop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #132235; }
+    .prop .prop-container h3 {
+      padding: 2rem;
+      font-weight: 700;
+      font-size: 1.5rem;
+      text-decoration: underline #132235; }
+    .prop .prop-container p {
+      text-align: left;
+      font-weight: 700;
+      padding: 2rem; }
+    .prop .prop-container .prop-spec {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+    .prop .prop-container .prop-gallery img {
+      padding: 20px;
+      cursor: pointer; }
 
 /* === 780px BREAKPOINT === */
 @media screen and (max-width: 768px) {
