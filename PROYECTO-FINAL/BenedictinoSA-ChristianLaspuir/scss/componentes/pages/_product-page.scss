@@ -2,6 +2,14 @@
 
 @import "../../bases/variables";
 
+.prop {
+
+    h1 {
+        font-size: 4rem;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
 .prop-container {
     display: flex;
     flex-direction: column;
@@ -32,4 +40,5 @@
         padding: 20px;
         cursor: pointer;
     }
+}
 }
