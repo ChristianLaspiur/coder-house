@@ -1,10 +1,17 @@
-# coderHouse
-Repositorio Comisión-24520 - Desarrollo Web. 
+# coder-house
 
-Profesor: Federico Gilles.
+Proyecto final del curso de Desarrollo Web de Coderhouse (comisión 24520): sitio web de **Benedictino SA**, con su wireframe.
 
-Tutor: Gabriel López Trujillo.
+## Stack
 
-Alumno: Christian Laspiur.
+HTML · CSS · Sass (SCSS) · JavaScript
 
-Nombre del proyecto final: Benedictino SA.
+## Estructura
+
+`PROYECTO-FINAL/BenedictinoSA-ChristianLaspuir`: el sitio.
+
+`PROYECTO-FINAL/Wireframe-BenedictinoSA`: wireframe previo al desarrollo.
+
+## Contexto
+
+Proyecto de formación, 2022. Profesor: Federico Gilles. Tutor: Gabriel López Trujillo.
